@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": false,
+    "noImplicitThis": true,
+    "useDefineForClassFields": true,
+    "moduleResolution": "node",
+    "noLib": false,
+    "sourceMap": false,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "types": [
+      "node",
+      "vite/client",
+      "element-plus/global",
+      "vite-plugin-pages/client",
+      "vite-plugin-vue-layouts/client"
+    ],
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "node_modules/unplugin-auto-import/auto-imports.d.ts",
+    "node_modules/unplugin-auto-import/auto-imports.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.js"
+  ]
+}
