@@ -37,13 +37,13 @@ import Footer from "@/layout/amazon-layout/footer/index.vue";
 }
 
 .el-footer {
-  height: 20px;
+  height: 30px;
   padding: 0;
   margin: 0;
 }
 
 .el-main {
-  height: calc(100vh - 60px - 20px);
+  height: calc(100vh - 60px - 30px);
   padding: 0;
   margin: 0;
 }

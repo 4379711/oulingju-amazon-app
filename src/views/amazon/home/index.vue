@@ -12,6 +12,18 @@ import PicText from "@/components/pic-text/index.vue";
 </script>
 
 <template>
+  <section class="home-hero">
+    <div class="home-hero__inner">
+      <h1>Data-Driven Analytics &amp; Operations for Amazon Selling Partners</h1>
+      <p>
+        Oulingju is a software platform that helps Amazon sellers turn their own store data into
+        actionable insight. We bring together brand, traffic and advertising analytics with
+        financial, supply-chain and day-to-day operations management — all within Amazon's policies —
+        so sellers can grow their business with confidence from a single, data-driven workspace.
+      </p>
+    </div>
+  </section>
+
   <pic-text
       index=1
       url="advertising-management.png"
@@ -45,13 +57,34 @@ import PicText from "@/components/pic-text/index.vue";
   <pic-text
       index=6
       url="custom-service-mgt.png"
-      title="Customer service management">
-    Multi-store station internal and external email one-stop processing without background switches; Manages customer information efficiently and timely, improves satisfaction and repeat purchase rate. Automatically request reviews based on orders or items, improve the review rate.Store performance anomaly active warning.
+      title="Customer Service Analytics">
+    Consolidates buyer inquiries received through Amazon's Buyer-Seller Messaging into a single workspace, helping sellers reply promptly to order and after-sales questions in full compliance with Amazon policies. Provides service analytics such as response time, resolution rate and satisfaction trends across multiple stores, and proactively alerts sellers to store performance anomalies. Buyer-Seller Messaging is used only for legitimate order fulfillment and customer service — never for marketing, and never to solicit or influence reviews, feedback or ratings.
   </pic-text>
 
 </template>
 
 <style scoped>
+.home-hero {
+  background: linear-gradient(180deg, rgb(240, 244, 255) 0%, rgb(248, 249, 255) 100%);
+}
 
+.home-hero__inner {
+  max-width: 60em;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
 
+.home-hero__inner h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+  color: #111827;
+}
+
+.home-hero__inner p {
+  font-size: 1.0625rem;
+  line-height: 1.85rem;
+  color: #4b5563;
+}
 </style>

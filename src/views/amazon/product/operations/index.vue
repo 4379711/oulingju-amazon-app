@@ -45,8 +45,8 @@ import PicText from "@/components/pic-text/index.vue";
   <pic-text
       index=6
       url="custom-service-mgt.png"
-      title="Customer service management">
-    Multi-store station internal and external email one-stop processing without background switches; Manages customer information efficiently and timely, improves satisfaction and repeat purchase rate. Automatically request reviews based on orders or items, improve the review rate.Store performance anomaly active warning.
+      title="Customer Service Analytics">
+    Consolidates buyer inquiries received through Amazon's Buyer-Seller Messaging into a single workspace, helping sellers reply promptly to order and after-sales questions in full compliance with Amazon policies. Provides service analytics such as response time, resolution rate and satisfaction trends across multiple stores, and proactively alerts sellers to store performance anomalies. Buyer-Seller Messaging is used only for legitimate order fulfillment and customer service — never for marketing, and never to solicit or influence reviews, feedback or ratings.
   </pic-text>
   <pic-text
       index=7
@@ -58,7 +58,7 @@ import PicText from "@/components/pic-text/index.vue";
       index=8
       url="review-analysis.png"
       title="Review analysis">
-    The system automatically obtains the content of commodity Reviews and store Feedbacks, statistics the negative review rate and return review rate of products, analyzes the reasons for the negative reviews of products, and helps sellers to improve the quality of commodities and improve the good comment rate.
+    Aggregates publicly available product reviews and store feedback and applies sentiment and topic analysis to surface common themes — such as the reasons behind negative reviews and product returns. These read-only insights help sellers identify product quality and listing issues so they can improve their products and the buyer experience. This feature only analyzes existing review data; it does not request, solicit, incentivize or attempt to influence reviews, feedback or ratings in any way.
   </pic-text>
 
 </template>
